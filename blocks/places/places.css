@@ -7,20 +7,20 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
     .places {
         max-width: calc(100% - 2*48px);
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
     .places {
         margin: 88px auto 0;
         max-width: calc(100% - 2*24px);
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 575px) {
     .places {
         margin: 64px 0 0;
         max-width: 100%;

@@ -1,23 +1,24 @@
 .place__paragraph {
-    margin: 0;
+    margin: 0 auto 27px;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     text-rendering: optimizeLegibility;
 }
 
-.place__paragraph:first-of-type {
-    margin-bottom: 27px;
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
+        margin: 0 auto 25px;
     }
 
-    .place__paragraph:first-of-type {
-        margin-bottom: 25px;
+    .place__paragraph:last-of-type {
+        margin-bottom: 0;
     }
 }
 

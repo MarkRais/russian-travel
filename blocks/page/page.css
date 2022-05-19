@@ -3,6 +3,7 @@
     background-color: #2A2C2F;
     color: #ffffff;
     min-width: 320px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 28px 0 24px;
     -webkit-font-smoothing: antialiased;
